@@ -27,8 +27,6 @@ public class MyArrayList<T>{
 		  }
 		  element[size]=t;
 		  size++;
-		  
-		  System.out.println(size);
 	 }
 	 public T get(int position){
 	  
