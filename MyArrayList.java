@@ -2,6 +2,7 @@ package zCollections;
 
 import java.util.Arrays;
 
+
 public class MyArrayList<T>{
 
 	 // Object array which actually stores the data
@@ -10,8 +11,9 @@ public class MyArrayList<T>{
 	 // The variable which gets incremented after every ading in the list
 	 int size;
 	 
+	 
 	 public void add(T t){
-	  
+	 
 		  // If the array is null, instantiate the array with size 2
 		  if(element==null){
 			  element = new Object[2];
@@ -25,6 +27,8 @@ public class MyArrayList<T>{
 		  }
 		  element[size]=t;
 		  size++;
+		  
+		  System.out.println(size);
 	 }
 	 public T get(int position){
 	  
